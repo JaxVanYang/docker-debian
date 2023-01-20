@@ -21,5 +21,5 @@ EXPOSE 22
 
 RUN cd && rm -rf /setupdir
 
-COPY ./setup-sshd /usr/local/bin/setup-sshd
+COPY ./setup-sshd.sh /usr/local/bin/setup-sshd
 ENTRYPOINT ["setup-sshd"]
