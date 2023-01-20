@@ -14,6 +14,13 @@ make stop && make clean && make build
 JENKINS_AGENT_SSH_PUBKEY="<pubkey>" make run
 ```
 
+Stop & start:
+
+```bash
+make stop
+make start
+```
+
 Connect using SSH:
 
 ```bash
